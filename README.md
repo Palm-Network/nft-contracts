@@ -24,7 +24,7 @@ yarn compile
 
 // Replace localhost with the appropriate environment from truffle-config.js
 npx truffle exec scripts/deploy.js --network localhost
-npx truffle exec scripts/batch-mint.js --network localhost
+npx truffle exec scripts/mint.js --network localhost
 ```
 
 ### Testing

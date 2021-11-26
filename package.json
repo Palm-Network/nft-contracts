@@ -6,7 +6,7 @@
     "compile": "truffle compile",
     "test": "truffle test",
     "test:cov": "truffle run coverage",
-    "mint": "truffle exec scripts/batch-mint.js",
+    "mint": "truffle exec scripts/mint.js",
     "ganache": "ganache-cli"
   },
   "devDependencies": {
