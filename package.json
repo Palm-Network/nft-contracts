@@ -1,0 +1,28 @@
+{
+  "name": "nft-contracts",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "test:cov": "truffle run coverage",
+    "mint": "truffle exec scripts/batch-mint.js",
+    "ganache": "ganache-cli"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.25.0",
+    "ganache-cli": "^6.12.2",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.10",
+    "solidity-coverage": "^0.7.16",
+    "truffle": "^5.3.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "chai": "^4.3.4",
+    "ganache-time-traveler": "^1.0.15"
+  }
+}

@@ -1,0 +1,19 @@
+node_modules
+yarn-error.log
+.vscode
+.idea
+# truffle
+build
+
+# hardhat files
+cache
+artifacts
+
+# solidity-coverage
+coverage
+coverage.json
+
+# ts
+dist
+
+.env

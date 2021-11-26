@@ -1,0 +1,5 @@
+Migrations.sol
+contracts/mocks/*.sol
+MockContract.sol
+**/node_modules/
+flatten/
