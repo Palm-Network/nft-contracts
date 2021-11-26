@@ -61,17 +61,6 @@ contract NFT is AccessControl, ERC2981, ERC721Enumerable, ERC721Burnable, ERC721
     }
 
     /**
-     * @dev Mints the specified token ids to the recipient addresses
-     * @param recipient Address that will receive the tokens
-     * @param tokenIds Array of tokenIds to be minted
-     */
-    function mint(address recipient, uint256[] calldata tokenIds) external onlyMinters {
-        for (uint256 i = 0; i < tokenIds.length; i++) {
-            _mint(recipient, tokenIds[i]);
-        }
-    }
-
-    /**
      * @dev Mints the specified token id to the recipient addresses
      * @dev The unused string parameter exists to support the API used by ChainBridge.
      * @param recipient Address that will receive the tokens
