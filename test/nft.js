@@ -126,7 +126,7 @@ contract('NFT', (accounts) => {
     })
 
     it('reverts if nft does not exist', async () => {
-      await expect(nft.tokenURI(0)).rejectedWith('ERC721Metadata: URI query for nonexistent token')
+      await expect(nft.tokenURI(0)).rejectedWith('ERC721: invalid token ID')
     })
   })
 
